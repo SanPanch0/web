@@ -1,0 +1,144 @@
+/* estadistica */
+#estadisticas {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #939393;  /* Fondo negro */
+    color: #fff;  /* Texto blanco */
+}
+
+#estadisticas h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #f1c40f;  /* Un color amarillo para resaltar el título */
+}
+
+#estadisticas p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #ddd;  /* Texto gris claro */
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.estadisticas-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.estadistica-item {
+    background-color: #222;  /* Fondo oscuro para cada item */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    flex: 1;
+    min-width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.estadistica-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.estadistica-item .icono img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.estadistica-item h3 {
+    font-size: 1.5rem;
+    color: #f1c40f;  /* Color amarillo para el título */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.estadistica-item p {
+    font-size: 1rem;
+    color: #ccc;  /* Color gris claro para el texto de la descripción */
+    margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+    .estadisticas-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* nuestroequipo */
+#nuestroequipo {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#nuestroequipo h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #007BFF;
+}
+
+#nuestroequipo p {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #555;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.equipo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.equipo-item {
+    max-width: 250px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.equipo-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.equipo-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.equipo-item h3 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+    color: #333;
+    font-weight: bold;
+}
+
+.equipo-item p {
+    font-size: 0.9rem;
+    padding: 0 15px 15px;
+    color: #666;
+}
+
+@media (max-width: 768px) {
+    .equipo-grid {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

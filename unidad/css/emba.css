@@ -1,0 +1,110 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo de la sección de servicios */
+.services {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 20px;
+    margin-top: 20px;
+}
+
+/* Imagen en la sección de servicios */
+.services-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+/* Información de la sección de servicios */
+.services-info {
+    flex: 1;
+    margin-left: 20px;
+}
+
+/* Estilo de cada servicio dentro de la sección */
+.service {
+    margin-bottom: 20px;
+}
+
+.service h3 {
+    font-size: 1.4em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Descripciones adicionales */
+.description {
+    font-size: 1.1em;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Estilo de la sección de información adicional */
+.additional-info {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+
+.additional-info h3 {
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Contenedor de imágenes adicionales */
+.additional-images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Texto en la sección de imágenes adicionales */
+.additional-text {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.additional-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* Estilo de las imágenes adicionales */
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.images img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

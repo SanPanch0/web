@@ -1,0 +1,57 @@
+.transporte-carga {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 30px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.contenido {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.contenido h2, .contenido h3 {
+    color: #1E90FF; /* Azul para los títulos */
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.contenido p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.contenido ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.contenido li {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.imagen {
+    flex: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15); /* Sombra suave */
+    transition: transform 0.3s ease-in-out;
+}
+
+.imagen img:hover {
+    transform: scale(1.05); /* Efecto de zoom cuando se pasa el ratón */
+}

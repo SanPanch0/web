@@ -1,0 +1,63 @@
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/empresa.css">
+<link rel="stylesheet" href="css/emba.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<div id="header"></div>
+<script>
+    document.getElementById("header").innerHTML = fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+</script>
+
+<section id="servicio" class="banner-servicio">
+        <div class="contenido-servicio">
+            <h2>EMBALAJE</h2>
+            <p><strong>¿Te mudas?</strong>... Nos mudamos contigo.</p>
+            <br>
+            <p>Transportes y Mudanzas Ayala es una empresa dedicada al servicio de transporte y mudanzas, ofreciendo soluciones eficientes, seguras y personalizadas para satisfacer las necesidades de cada cliente. Nos especializamos en el traslado de mercancías y en la organización de mudanzas tanto residenciales como comerciales, priorizando la puntualidad y el cuidado en cada proceso.  <br>  Con un equipo profesional y experimentado, garantizamos un servicio de alta calidad y compromiso con la seguridad de sus pertenencias, para que cada traslado sea una experiencia confiable.</p>
+            <br>
+            <a href="#cotizaciones" class="boton-cotizar">Cotiza En Línea Aquí</a>
+        </div>
+        <div class="imagen-servicio">
+            <img src="imagenes/emba.avif" alt="Taxi Carga" />
+        </div>
+</section>
+<section class="services">
+        <div class="services-image">
+            <img src="imagenes/imagen1.png" alt="Mudanza en proceso">
+        </div>
+        <div class="services-info">
+            <div class="service">
+                <h3>Confianza</h3>
+                <p>Disponemos de un staff de operarios de mudanzas capacitados en la manipulación de enseres valiosos.</p>
+            </div>
+            <div class="service">
+                <h3>Seguridad</h3>
+                <p>Moderno sistema de monitoreo de unidades GPS y seguimiento postventa para nuestros clientes.</p>
+            </div>
+            <p class="description">
+                Especialistas en embalajes, permiten asegurar tus bienes ante golpes o rayaduras. ¡Embalamos muebles, mesas, cómodas, televisores y todo lo que usted nos indique!
+            </p>
+            <p class="description">
+                Servicio de mudanzas puerta a puerta (nivel nacional); desde tu domicilio actual hacia el destino indicado. En Lima o provincia.
+            </p>
+        </div>
+    </section>
+
+    <section class="additional-info">
+        <h3>OFRECEMOS SEGURIDAD, EFICIENCIA Y CALIDAD A NUESTROS CLIENTES</h3>
+        <div class="additional-images">
+            <div class="additional-text">
+                <p>Disponemos de unidades con capacidades suficientes para realizar cualquier operación de carga, estiba y solucionar cualquier proyecto que se nos presente.</p>
+            </div>
+            <div class="images">
+                <div class="images">
+                    <img src="imagenes/imagen1.png" alt="Personal de mudanza con caja">
+                    <img src="imagenes/imagen2.jpg" alt="Embalaje de muebles con plástico">
+            </div>
+        </div>
+    </section>
+<footer>
+    <p>  @ Mudanzas y Transportes Ayala. </p>
+</footer>

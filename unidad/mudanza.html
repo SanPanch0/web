@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mudanzas y Transportes Ayala</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/empresa.css">
+<link rel="stylesheet" href="css/mudanza.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<div id="header"></div>
+<script>
+    document.getElementById("header").innerHTML = fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+</script>
+<section id="servicio" class="banner-servicio">
+        <div class="contenido-servicio">
+            <h2>Mudanzas</h2>
+            <p><strong>¿Te mudas?
+            </strong>... Nos mudamos contigo.</p>
+            <p><br>En Transportes y Mudanzas Ayala, ofrecemos servicios de mudanzas integrales, adaptados a las necesidades de cada cliente. Nos encargamos de todo el proceso, desde el embalaje seguro de tus pertenencias, el traslado en vehículos adecuados, hasta la descarga y reubicación en tu nuevo destino. Ya sea una mudanza residencial, comercial o especializada, nuestro equipo altamente capacitado asegura que tus bienes lleguen en perfectas condiciones y a tiempo. Además, ofrecemos servicios adicionales como el desmontaje y montaje de muebles, así como almacenamiento temporal si es necesario. En Transportes y Mudanzas Ayala, tu tranquilidad y satisfacción son nuestra prioridad.</p>
+            <br>
+            <a href="#cotizaciones" class="boton-cotizar">Cotiza En Línea Aquí</a>
+        </div>
+        <div class="imagen-servicio">
+            <img src="imagenes/mudanza.avif" alt="Taxi Carga" />
+        </div>
+    </section>
+<section class="mudanza">
+    <div class="contenido">
+        <h2>Mudanzas</h2>
+        <br>
+        <p>En Mudanzas y Transportes Ayala en Lima nos ocuparemos desde el inicio hasta el final de su traslado brindándole un trato personalizado. Contamos con 3 paquetes de Mudanzas Básico, Standar y Full y nos dirigimos a todas aquellas personas naturales, privadas y hogares domésticos. El tamaño de la Mudanza, ya sea pequeña, mediana o de gran envergadura, estamos preparados.</p>
+        <br>
+
+        <h3>Tipos de Mudanza</h3>
+        <br>
+        <div class="paquete">
+            <h4>Mudanza Básica</h4>
+            <br>
+            <ul>
+                <li>Permiso de mudanza policial</li>
+                <li>Personal calificado para carga y descarga</li>
+                <li>Camión cerrado con la capacidad suficiente para su traslado</li>
+                <li>Incluye el embalaje del mobiliario de hogar con protectores, strech film y cintas</li>
+                <li>Desarmado y armado de mobiliario</li>
+                <li>Préstamo de roperos portátiles para sus prendas de vestir</li>
+                <li>Desembalaje y ubicación de solo muebles (No incluye instalación de racks y cuadros, carpintería, electricidad, gasfitería)</li>
+                <li>Todos los materiales utilizados para su servicio son en calidad de préstamo.</li>
+            </ul>
+        </div>
+        <br>
+
+        <div class="paquete">
+            <h4>Mudanza Intermedia</h4>
+            <br>
+            <p>Incluye la Mudanza Básica más el embalaje de los artículos pequeños como menajes de cocina, adornos, libros y prendas de vestir, para lo cual requerimos de cajas, cintas de embalaje, burbupack y papel blanco.</p>
+        </div>
+        <br>
+
+        <div class="paquete">
+            <h4>Mudanza Completa</h4>
+            <br>
+            <p>Incluye la Mudanza Intermedia y a su vez el desembalaje y ubicación de los muebles y artículos menores en el área donde corresponda, según indicación del propietario o persona encargada.</p>
+        </div>
+    </div>
+
+    <div class="imagen">
+        <img src="imagenes/mudanza1.jpg" alt="Mudanza y transporte">
+    </div>
+</section>
+
+
+<footer>
+    <p>  @ Mudanzas y Transportes Ayala. </p>
+</footer>

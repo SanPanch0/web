@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mudanzas y Transportes Ayala</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<div id="header"></div>
+<script>
+    document.getElementById("header").innerHTML = fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+</script>
+
+
+    <section id="servicio" class="banner-servicio">
+        <div class="contenido-servicio">
+            <h2>Mudanzas y Transportes Ayala</h2>
+            <p><strong>¿Te mudas?
+            </strong>... Nos mudamos contigo.</p>
+            <p>Mudanzas y Embalajes Ayala desde hace muchos años se ah consolidado como la empresa que ofrece la gama de servicios más completa, eficaz y confiable del ramo. <br> Uno de nuestros representantes le visitará, le orientará, será su asesor para la planeación de su mudanza y detrás de él toda nuestra organización estará siempre al cuidado de su embarque en un servicio personalizado y de puerta a puerta.</p>
+            <br>
+            <a href="#cotizaciones" class="boton-cotizar">Cotiza En Línea Aquí</a>
+        </div>
+        <div class="imagen-servicio">
+            <img src="imagenes/cuatro.webp" alt="Taxi Carga" />
+        </div>
+    </section>
+
+    <section id="inicio">
+        <div class="card">
+            <img src="imagenes/uno.png"alt="Misión">
+            <h3>Misión</h3>
+            <p>Ofrecer servicios de mudanza y transporte de alta calidad, priorizando la satisfacción del cliente y la seguridad de sus bienes.</p>
+        </div>
+        <div class="card">
+            <img src="imagenes/dos.jpg" alt="Visión">
+            <h3>Visión</h3>
+            <p>Ser la empresa líder en el sector de mudanzas y transporte, reconocida por su eficiencia, seguridad y profesionalismo.</p>
+        </div>
+        <div class="card">
+            <img src="imagenes/tres.webp" alt="Valores">
+            <h3>Valores</h3>
+            <p>Compromiso, responsabilidad, seguridad, y atención al cliente son nuestros pilares fundamentales.</p>
+        </div>
+    </section>
+    <section id="servicios">
+    <div class="contenedor-servicios">
+        <h2>Nuestros Servicios</h2>
+        <p>Brindar y garantizar un servicio de transporte seguro y de excelencia reconocida por los clientes.</p>
+        <div class="servicios-grid">
+            <div class="servicio">
+                <i class="icono-servicio">🚚</i>
+                <h3>Mudanzas</h3>
+                <p>Servicio de transporte diseñado para aquellas empresas que requieran traslado de sus lotes de mercadería.</p>
+                <a href="mudanza.html" class="leer-mas">Leer Más ></a>
+            </div>
+            <div class="servicio">
+                <i class="icono-servicio">📦</i>
+                <h3>Transporte De Carga</h3>
+                <p>Servicio de transporte diseñado para aquellas empresas que requieran traslado de sus lotes de mercadería.</p>
+                <a href="transporte.html" class="leer-mas">Leer Más ></a>
+            </div>
+            <div class="servicio">
+                <i class="icono-servicio">🛠️</i>
+                <h3>Embalaje</h3>
+                <p>Embalados de maquinaria, mercancía y bienes de equipo de cualquier complejidad, tamaño o peso.</p>
+                <a href="#" class="leer-mas">Leer Más ></a>
+            </div>
+            <div class="servicio">
+                <i class="icono-servicio">🏠</i>
+                <h3>Almacenaje</h3>
+                <p>Alquila el tamaño de depósito perfecto cerca de tu negocio o tu hogar de manera fácil y rápida.</p>
+                <a href="#" class="leer-mas">Leer Más ></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sección de Nuestro Equipo -->
+<section id="nuestro-equipo">
+    <h2>Nuestro Equipo</h2>
+    <p>Contamos con más de 10 años en el rubro de Mudanzas, Transporte de Carga, Embalaje y Almacenaje. Aquí parte de nuestro equipo.</p>
+    <div class="equipo-grid">
+        <img src="imagenes/equipo1.jpg" alt="Equipo 1">
+        <img src="imagenes/equipo2.png" alt="Equipo 2">
+        <img src="imagenes/equipo3.jpg" alt="Equipo 3">
+        <img src="imagenes/equipo4.webp" alt="Equipo 4">
+    </div>
+</section>
+
+<!-- Sección de Testimonios -->
+<section id="testimonios">
+    <h2>Testimonios</h2>
+    <div class="testimonios-grid">
+        <div class="testimonio">
+            <img src="imagenes/persona1.jpg" >
+            <p>"Servicio excelente, el equipo fue muy cuidadoso con todas nuestras pertenencias."</p>
+            <h4>- Juan Pérez</h4>
+        </div>
+        <div class="testimonio">
+            <img src="imagenes/persona1.webp" >
+            <p>"Mudanzas Ayala nos brindó un servicio profesional y rápido. Lo recomiendo 100%."</p>
+            <h4>- Mario García</h4>
+        </div>
+        <div class="testimonio">
+            <img src="imagenes/persona.jpeg" >
+            <p>"Los mejores en transporte de carga. Todo llegó a tiempo y en perfectas condiciones."</p>
+            <h4>- Carlos López</h4>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <p>  @ Mudanzas y Transportes Ayala. </p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>

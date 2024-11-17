@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mudanzas y Transportes Ayala</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/empresa.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<div id="header"></div>
+<script>
+    document.getElementById("header").innerHTML = fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+</script>
+
+<section id="servicio" class="banner-servicio">
+        <div class="contenido-servicio">
+            <h2>La Empresa</h2>
+            <p><strong>¿Te mudas?</strong>... Nos mudamos contigo.</p>
+            <br>
+            <p>Transportes y Mudanzas Ayala es una empresa dedicada al servicio de transporte y mudanzas, ofreciendo soluciones eficientes, seguras y personalizadas para satisfacer las necesidades de cada cliente. Nos especializamos en el traslado de mercancías y en la organización de mudanzas tanto residenciales como comerciales, priorizando la puntualidad y el cuidado en cada proceso.  <br>  Con un equipo profesional y experimentado, garantizamos un servicio de alta calidad y compromiso con la seguridad de sus pertenencias, para que cada traslado sea una experiencia confiable.</p>
+            <br>
+            <a href="#cotizaciones" class="boton-cotizar">Cotiza En Línea Aquí</a>
+        </div>
+        <div class="imagen-servicio">
+            <img src="imagenes/empresa.jpg" alt="Taxi Carga" />
+        </div>
+    </section>
+<section id="inicio">
+        <div class="card">
+            <img src="imagenes/uno.png"alt="Misión">
+            <h3>Misión</h3>
+            <p>Ofrecer servicios de mudanza y transporte de alta calidad, priorizando la satisfacción del cliente y la seguridad de sus bienes.</p>
+        </div>
+        <div class="card">
+            <img src="imagenes/dos.jpg" alt="Visión">
+            <h3>Visión</h3>
+            <p>Ser la empresa líder en el sector de mudanzas y transporte, reconocida por su eficiencia, seguridad y profesionalismo.</p>
+        </div>
+        <div class="card">
+            <img src="imagenes/tres.webp" alt="Valores">
+            <h3>Valores</h3>
+            <p>Compromiso, responsabilidad, seguridad, y atención al cliente son nuestros pilares fundamentales.</p>
+        </div>
+    </section>
+<section id="estadisticas">
+    <h2>Estadísticas de Nuestra Empresa</h2>
+    <p>Con años de experiencia en el sector, hemos logrado alcanzar grandes metas y satisfacer a nuestros clientes. A continuación, te mostramos algunos de nuestros logros más destacados.</p>
+    <div class="estadisticas-grid">
+        <div class="estadistica-item">
+            <div class="icono">
+                <img src="imagenes/10.webp" alt="Años de Servicio" />
+            </div>
+            <h3>Años de Servicio</h3>
+            <p>Más de 10 años brindando los mejores servicios en el sector.</p>
+        </div>
+        <div class="estadistica-item">
+            <div class="icono">
+                <img src="imagenes/realizado.avif" alt="Trabajos Realizados" />
+            </div>
+            <h3>Trabajos Realizados</h3>
+            <p>Más de 500 proyectos exitosos completados con la máxima calidad.</p>
+        </div>
+        <div class="estadistica-item">
+            <div class="icono">
+                <img src="imagenes/felices.jpg" alt="Clientes Felices" />
+            </div>
+            <h3>Clientes Felices</h3>
+            <p>Más de 1,000 clientes satisfechos que confían en nuestros servicios.</p>
+        </div>
+    </div>
+</section>
+
+<section id="nuestroequipo">
+    <h2>Trabajos</h2>
+    <p>Aquí algunos tipos de servicio brindados.</p>
+    <p>Tenemos personal altamente capacitado para cumplir cualquier tipo de servicios.</p>
+    <div class="equipo-grid">
+        <div class="equipo-item">
+            <img src="imagenes/equipo1.jpg" alt="Embalaje de Muebles">
+            <h3>Embalaje de Muebles</h3>
+            <p>Servicio especializado de embalaje para proteger tus muebles y asegurar que lleguen en perfectas condiciones a su destino.</p>
+        </div>
+        <div class="equipo-item">
+            <img src="imagenes/equipo2.png" alt="Traslado de Muebles">
+            <h3>Traslado de Muebles</h3>
+            <p>Servicio especializado en el traslado cuidadoso de muebles de todo tipo, garantizando su protección durante el transporte para que lleguen a su destino en perfectas condiciones.</p>
+        </div>
+        <div class="equipo-item">
+            <img src="imagenes/equipo3.jpg" alt="Embalaje Seguro">
+            <h3>Embalaje Seguro</h3>
+            <p>Ofrecemos un servicio de embalaje profesional, utilizando materiales de alta calidad para proteger tus pertenencias, asegurando su seguridad durante todo el traslado.</p>
+        </div>
+        <div class="equipo-item">
+            <img src="imagenes/equipo4.webp" alt="Traslado Internacional">
+            <h3>Traslado Internacional</h3>
+            <p>Contamos con experiencia en traslados internacionales, gestionando todos los detalles logísticos y aduaneros para que tus bienes lleguen a cualquier destino fuera del país de manera eficiente y segura.</p>
+        </div>
+    </div>
+</section>
+
+
+ <footer>
+        <p>  @ Mudanzas y Transportes Ayala. </p>
+    </footer>

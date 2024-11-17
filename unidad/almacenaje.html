@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mudanzas y Transportes Ayala</title>
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/empresa.css">
+<link rel="stylesheet" href="css/almacenaje.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<div id="header"></div>
+<script>
+    document.getElementById("header").innerHTML = fetch('header.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("header").innerHTML = data);
+</script>
+
+<section id="servicio" class="banner-servicio">
+        <div class="contenido-servicio">
+            <h2>Almacenaje</h2>
+            <p><strong>¿Te mudas?</strong>... Nos mudamos contigo.</p>
+            <br>
+            <p>Transportes y Mudanzas Ayala es una empresa dedicada al servicio de transporte y mudanzas, ofreciendo soluciones eficientes, seguras y personalizadas para satisfacer las necesidades de cada cliente. Nos especializamos en el traslado de mercancías y en la organización de mudanzas tanto residenciales como comerciales, priorizando la puntualidad y el cuidado en cada proceso.  <br>  Con un equipo profesional y experimentado, garantizamos un servicio de alta calidad y compromiso con la seguridad de sus pertenencias, para que cada traslado sea una experiencia confiable.</p>
+            <br>
+            <a href="#cotizaciones" class="boton-cotizar">Cotiza En Línea Aquí</a>
+        </div>
+        <div class="imagen-servicio">
+            <img src="imagenes/alma.webp" alt="Taxi Carga" />
+        </div>
+</section>
+<section class="storage-options">
+            <div class="option">
+                <h2>Almacenamiento para Empresas</h2>
+                <p>Ahora tu negocio tendrá más posibilidades de expandirse.</p>
+                <ul>
+                    <li>Nuestra oficina se está quedando sin espacio.</li>
+                    <li>Queremos guardar archivos externamente.</li>
+                    <li>Se requiere un punto de distribución.</li>
+                    <li>No tenemos espacio para nuestra mercancía de temporada.</li>
+                </ul>
+            </div>
+
+            <div class="option">
+                <h2>Almacenamiento de bienes de Hogar</h2>
+                <p>Ahora podrá aprovechar mejor el espacio donde habite.</p>
+                <ul>
+                    <li>Mi apartamento es demasiado pequeño.</li>
+                    <li>Quiero renovar mi casa.</li>
+                    <li>Me estoy mudando de casa.</li>
+                    <li>Necesito un guardamuebles para mudanza.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="image-section">
+            <img src="imagenes/ almacen.png" alt="Almacén">
+        </section>
+<footer>
+    <p>  @ Mudanzas y Transportes Ayala. </p>
+</footer>

@@ -1,0 +1,47 @@
+.mudanza {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    gap: 20px;
+}
+
+.contenido {
+    flex: 1;
+
+}
+
+.paquete {
+    margin-bottom: 20px;
+}
+
+.paquete h4 {
+    color: #1E90FF;  /* Azul para los títulos */
+    font-size: 1.4rem;
+}
+
+.paquete ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.paquete li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.imagen {
+    flex: 0.5;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;  /* Bordes redondeados para la imagen */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}

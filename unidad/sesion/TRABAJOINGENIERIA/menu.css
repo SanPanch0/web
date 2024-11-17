@@ -1,0 +1,61 @@
+/* Estilo para html y body para ocupar toda la pantalla */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del área de contenido con imagen de fondo */
+.content {
+    margin-left: 250px; /* Alinear el contenido con el menú lateral */
+    padding: 20px;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-image: url('fondo2.jpg'); /* Cambia esta ruta por la de tu imagen */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el espacio */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Estilos para el contenedor del menú */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    position: fixed; /* Fijar la barra lateral para que siempre esté visible */
+    top: 0;
+    left: 0;
+}
+
+/* Estilo para la imagen circular */
+.profile-img img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-bottom: 20px;
+}
+
+/* Estilo para los botones del menú */
+.menu-button {
+    background-color: #444;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    cursor: pointer;
+    text-align: left;
+    font-size: 16px;
+}
+
+.menu-button:hover {
+    background-color: #555;
+}
+/* Estilo para el texto de bienvenida */
